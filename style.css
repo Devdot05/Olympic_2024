@@ -1,0 +1,52 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.top{
+    background-color: #2E487B;
+     
+}
+.first{
+    background-image: url(/images/sport.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.second{
+    background-color: #2E487B;
+}
+
+input{
+    height: 50px;
+}
+
+#error{
+    height: 45px;
+    padding: 10px;
+    display: none;
+}
+
+table{
+    border: 1px solid white;
+    width: 100%;
+}
+
+td{
+    border: 1px solid white;
+
+}
+t{
+    border: 1px solid white;
+
+}
+
+.tab{
+    height: 22vh;
+    /* border: 2px solid white; */
+    overflow:auto ;
+    
+}
