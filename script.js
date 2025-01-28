@@ -74,8 +74,8 @@ function displayResult() {
 }
 
 function deleteItems(index) {
-    var confamu = confirm('Are you sure you want to delete');
-    if (confamu == true) {
+    var confirm = confirm('Are you sure you want to delete');
+    if (confirm == true) {
         allAthletes.splice(index, 1);
         saveToLocalStorage();
         displayResult();
